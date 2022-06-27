@@ -37,8 +37,10 @@ const SignUp = ({ set_state_status_text, fetch_state_vartotojas }) =>
             <p>Sugalvokite savo vartotojo vardą ir slaptažodį, spauskite "Registruokis!"</p>
             <span>Vardas</span>
             <input type="text" ref={ref_vardas} />
+            <hr/>
             <span>Slaptažodis</span>
             <input type="password" ref={ref_slaptazodis} />
+            <hr/>
             <button onClick={handle_click}>Registruokis!</button>
         </div>
     )

@@ -37,8 +37,10 @@ const SignIn = ({ set_state_status_text, fetch_state_vartotojas }) =>
             <p>Įveskite savo vartotojo vardą ir slaptažodį</p>
             <span>Vardas</span>
             <input type="text" ref={ref_vardas} />
+            <hr/>
             <span>Slaptažodis</span>
             <input type="password" ref={ref_slaptazodis} />
+            <hr/>
             <button onClick={handle_click}>Prisijunk!</button>
         </div>
     )
