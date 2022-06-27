@@ -1,0 +1,38 @@
+{
+  "name": "skelbimu_portalas",
+  "version": "1.0.0",
+  "description": "atvaizduoti skelbimus",
+  "main": "index.js",
+  "module": "common",
+  "scripts": {
+    "start": "set NODE_ENV=production&&node index.js",
+    "test": "nera"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedcet/egzaminas.git"
+  },
+  "keywords": [
+    "js",
+    "React"
+  ],
+  "author": "gedcet jp-21 epmc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gedcet/egzaminas/issues"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  },
+  "engines": {
+    "npm": ">=8.5.1",
+    "node": ">=17.6.0"
+  },
+  "homepage": "https://github.com/gedcet/egzaminas#readme"
+}
