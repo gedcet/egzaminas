@@ -40,7 +40,7 @@ const CreateSkelbimas = ({ set_state_status_text }) =>
     return (
         <div className="CreateSkelbimas">
 
-            <h4>CreateSkelbimas</h4>
+            <h4>Kurt skelbimą</h4>
 
             <span>pavadinimas</span>
             <input type="text" ref={ref_pavadinimas} />

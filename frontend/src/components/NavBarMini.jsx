@@ -44,9 +44,9 @@ const NavBarMini = ({ set_state_current_view, state_vartotojas, fetch_state_vart
 
                 <span>Skelbimu svetaine</span>
 
-                <button onClick={() => { set_state_current_view("SignUp"); set_state_show_meniu(false) }}>SignUp</button>
+                <button onClick={() => { set_state_current_view("SignUp"); set_state_show_meniu(false) }}>Registruotis</button>
 
-                <button onClick={() => { set_state_current_view("SignIn"); set_state_show_meniu(false) }}>SignIn</button>
+                <button onClick={() => { set_state_current_view("SignIn"); set_state_show_meniu(false) }}>Prisijungti</button>
 
                 <button onClick={() => { set_state_show_meniu(false) }}>Hide</button>
 
@@ -72,7 +72,7 @@ const NavBarMini = ({ set_state_current_view, state_vartotojas, fetch_state_vart
 
                 <button onClick={() => { set_state_current_view("CreateSkelbimas"); set_state_show_meniu(false) }}>Kurti skelbimą</button>
 
-                <button onClick={() => { handle_click(); set_state_show_meniu(false) }}>SignOut</button>
+                <button onClick={() => { handle_click(); set_state_show_meniu(false) }}>Atsijungti</button>
 
                 <button onClick={() => { set_state_show_meniu(false) }}>Hide</button>
 

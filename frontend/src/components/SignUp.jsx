@@ -34,7 +34,7 @@ const SignUp = ({ set_state_status_text, fetch_state_vartotojas }) =>
     return (
         <div className="SignUp">
             <h1>Naujo vartotojo registracija</h1>
-            <h5>Sugalvokite savo vartotojo varda ir slaptazodi, spauskite "Registruotis"</h5>
+            <p>Sugalvokite savo vartotojo vardą ir slaptažodį, spauskite "Registruokis!"</p>
             <span>Vardas</span>
             <input type="text" ref={ref_vardas} />
             <span>Slaptažodis</span>

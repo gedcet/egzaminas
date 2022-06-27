@@ -34,6 +34,7 @@ const SignIn = ({ set_state_status_text, fetch_state_vartotojas }) =>
     return (
         <div className="SignUp">
             <h1>Vartotojo prisijungimo puslapis</h1>
+            <p>Įveskite savo vartotojo vardą ir slaptažodį</p>
             <span>Vardas</span>
             <input type="text" ref={ref_vardas} />
             <span>Slaptažodis</span>
