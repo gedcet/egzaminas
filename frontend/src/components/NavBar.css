@@ -1,0 +1,10 @@
+.NavBar {
+    width: 100%;
+    height: 5em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: max-content auto repeat(7, max-content);
+    border-bottom: 0.1em solid lightgray;
+    gap: 0.5em;
+}

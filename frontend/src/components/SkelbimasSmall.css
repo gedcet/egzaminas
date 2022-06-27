@@ -1,0 +1,50 @@
+.SkelbimasSmall {
+    width: 80%;
+    height: 8em;
+    display: grid;
+    grid-template-areas:
+        "e a a"
+        "e b b"
+        "e c d";
+
+    grid-template-columns: 10em auto 10em;
+    cursor: pointer;
+    border-bottom: 0.1em solid lightgray;
+}
+
+.SkelbimasSmall:hover {
+    background-color: rgb(232, 245, 220);
+}
+
+.SkelbimasSmall :nth-child(1) {
+    grid-area: a;
+    font-weight: 900;
+    height: 1.5em;
+    text-align: left;
+}
+
+.SkelbimasSmall :nth-child(2) {
+    grid-area: b;
+    height: 5em;
+    overflow: hidden;
+    text-align: left;
+}
+
+.SkelbimasSmall :nth-child(3) {
+    grid-area: c;
+    height: 1.5em;
+    text-align: left;
+}
+
+.SkelbimasSmall :nth-child(4) {
+    grid-area: d;
+}
+
+.SkelbimasSmall :nth-child(5) {
+    grid-area: e;
+    width: 9em;
+    height: 7em;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+}
