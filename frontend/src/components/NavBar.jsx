@@ -32,7 +32,7 @@ const NavBar = ({ set_state_current_view, state_vartotojas, fetch_state_vartotoj
         return (
             <div className="NavBar">
 
-                <span>Skelbimu svetaine</span>
+                <span>Skelbimų svetainė</span>
 
                 <span></span>
 
@@ -58,7 +58,7 @@ const NavBar = ({ set_state_current_view, state_vartotojas, fetch_state_vartotoj
         return (
             <div className="NavBar">
 
-                <span>Skelbimu svetaine</span>
+                <span>Skelbimų svetainė</span>
 
                 <span></span>
 
@@ -84,7 +84,7 @@ const NavBar = ({ set_state_current_view, state_vartotojas, fetch_state_vartotoj
         return (
             <div className="NavBar">
 
-                <span>Skelbimu svetaine</span>
+                <span>Skelbimų svetainė</span>
 
                 <span></span>
 

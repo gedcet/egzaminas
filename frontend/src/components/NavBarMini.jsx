@@ -42,7 +42,7 @@ const NavBarMini = ({ set_state_current_view, state_vartotojas, fetch_state_vart
         return (
             <div className="NavBarMini">
 
-                <span>Skelbimu svetaine</span>
+                <span>Skelbimų svetainė</span>
 
                 <button onClick={() => { set_state_current_view("SignUp"); set_state_show_meniu(false) }}>Registruotis</button>
 
@@ -58,7 +58,7 @@ const NavBarMini = ({ set_state_current_view, state_vartotojas, fetch_state_vart
         return (
             <div className="NavBarMini">
 
-                <span>Skelbimu svetaine</span>
+                <span>Skelbimų svetainė</span>
 
                 <span>{state_vartotojas.vardas}</span>
 
@@ -84,7 +84,7 @@ const NavBarMini = ({ set_state_current_view, state_vartotojas, fetch_state_vart
         return (
             <div className="NavBarMini">
 
-                <span>Skelbimu svetaine</span>
+                <span>Skelbimų svetainė</span>
 
                 <span>{state_vartotojas.vardas}</span>
 

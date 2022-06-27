@@ -11,7 +11,7 @@ Prie paleidžiant projektą reikės susiinstaliuoti node_modules ir backende ir 
 BackEnd paleidimas, is VS Code programos. Nunaviguojam failų medyje iki "index.js" failo ir ji paleidžiam su node.js
 FrontEnd paleidimas, terminalo lange per direktorijas nukeliaujam iki frontend/ direktorijos ir leidžiam su npm run start
 
-Sėkmingai užsikrovus projektui matysime prisijungimo puslapį.
+Sėkmingai užsikrovus projektui http://localhost:3000 matysime prisijungimo puslapį.
 
 Prisijungti kaip administratoriui:
 admin
